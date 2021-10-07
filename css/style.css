@@ -274,7 +274,6 @@ button.search-button i {
     top: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
-    margin-top: -4px;
     display: block;
 }
 
