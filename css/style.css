@@ -270,7 +270,7 @@ button.search-button i {
     color: #B4B4B4;
     font-weight: 400;
     position: absolute;
-    left: 50%;
+    left: 60%;
     top: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
