@@ -206,7 +206,7 @@ form.search-form {
     border: none;
     padding: 10px;
 }
-.search-form input :focus-visible{
+.search-form input:focus-visible{
     outline: none;
 }
 
