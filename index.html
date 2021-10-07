@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mate Themes | Front End Web Development</title>
+
+    <!-- Google Font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Main StyleSheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+<body>
+    
+    <!-- Hero area -->
+    <div class="header-area">
+        <!-- Header Top -->
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 hidden-on-mobile">
+                        <div class="header-top__left">
+                            <div class="header-top__nav">
+                                <ul>
+                                    <li>
+                                        <a href="#"><span>English</span></a>
+                                        <ul class="sub-menu-dropdown">
+                                            <li><a href="#">Bangla</a></li>
+                                            <li><a href="#">Arabic</a></li>
+                                            <li><a href="#">Japanise</a></li>
+                                            <li><a href="#">Chinise</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Country</span></a>
+                                        <ul class="sub-menu-dropdown">
+                                            <li><a href="#">Bangla</a></li>
+                                            <li><a href="#">Arabic</a></li>
+                                            <li><a href="#">Japanise</a></li>
+                                            <li><a href="#">Chinise</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <div class="header-top-text">
+                                    <strong>FREE SHIPPING FOR ALL ORDERS OF $150</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 hidden-on-desktop">
+                        <div class="header-top__right">
+                            <div class="social-icon">
+                                <ul>
+                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 hidden-on-mobile">
+                        <div class="header-top__right">
+                            <div class="social-icon">
+                                <ul>
+                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="header-top__right__nav">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-envelope-o"></i><span>Newsletter</span></a></li>
+                                    <li><a href=""><span>Contact us</span></a></li>
+                                    <li><a href=""><span>Faq</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Header -->
+        <div class="mobile-header hidden-on-desktop">
+            <div class="mobile-menu">
+                <a href="#" id="sidebarCollapse">
+                    <i class="fa fa-bars"></i>
+                    <span>Menu</span>
+                </a>
+                <!-- Humberger menu -->
+                <div class="humberger-menu">
+                    <!-- Close Button -->
+                    <div class="close"> 
+                        <i class="fa fa-times"></i>
+                    </div>
+                    <!-- Search Bar -->
+                    <div class="search-bar">
+                        <form action="#">
+                            <input type="text" name="search" id="" placeholder="Search for product">
+                            <button class="search-button"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <!-- Mobile Navigation -->
+                    <div class="mobile-menu-tabs">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" id="mobile-menu-tab" data-toggle="tab" href="#mobile-menu" role="tab" aria-controls="mobile-menu" aria-selected="true">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="mobile-category-tab" data-toggle="tab" href="#mobile-category" role="tab" aria-controls="mobile-category" aria-selected="false">Category</a>
+                            </li>
+                          </ul>
+                          <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="mobile-menu" role="tabpanel" aria-labelledby="mobile-menu-tab">
+                               <!-- Mobile Main Menu -->
+                                <ul class="mobile-tab-main-menu">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Demos</a></li>
+                                    <li><a href="#">Shop</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#" class="sub-has-child" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">Pages</a>
+                                        <ul class="child-menu collapse" id="collapseExample4">
+                                            <li><a href="#" class="sub-has-child" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">Prebuild Pages</a>
+                                                <ul class="child-menu collapse" id="collapseExample2">
+                                                    <li><a href="#">Home</a></li>
+                                                    <li><a href="#">Demos</a></li>
+                                                    <li><a href="#">Shop</a></li>
+                                                    <li><a href="#">Blog</a></li>
+                                                    <li><a href="#">Portfolio</a></li>
+                                                    <li><a href="#">Home</a></li>
+                                                    <li><a href="#">Demos</a></li>
+                                                    <li><a href="#">Shop</a></li>
+                                                    <li><a href="#">Blog</a></li>
+                                                    <li><a href="#">Portfolio</a></li>
+                                                    <li><a href="#">Home</a></li>
+                                                    <li><a href="#">Demos</a></li>
+                                                    <li><a href="#">Shop</a></li>
+                                                    <li><a href="#">Blog</a></li>
+                                                    <li><a href="#">Portfolio</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#" class="sub-has-child" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">Prebuild Layout</a>
+                                                <ul class="child-menu collapse" id="collapseExample3">
+                                                    <li><a href="#">Home</a></li>
+                                                    <li><a href="#">Demos</a></li>
+                                                    <li><a href="#">Shop</a></li>
+                                                    <li><a href="#">Blog</a></li>
+                                                    <li><a href="#">Portfolio</a></li>
+                                                    <li><a href="#">Home</a></li>
+                                                    <li><a href="#">Demos</a></li>
+                                                    <li><a href="#">Shop</a></li>
+                                                    <li><a href="#">Blog</a></li>
+                                                    <li><a href="#">Portfolio</a></li>
+                                                    <li><a href="#">Home</a></li>
+                                                    <li><a href="#">Demos</a></li>
+                                                    <li><a href="#">Shop</a></li>
+                                                    <li><a href="#">Blog</a></li>
+                                                    <li><a href="#">Portfolio</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <ul class="woo-list">
+                                        <li><a href="#"><i class="fa fa-heart-o"></i> Wishlist</a></li>
+                                        <li><a href="#"><i class="fa fa-random"></i> Compare</a></li>
+                                        <li><a href="#"><i class="fa fa-user-o"></i> Login / Registration</a></li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="mobile-category" role="tabpanel" aria-labelledby="mobile-category-tab">
+                                <!-- Mobile Category Menu -->
+                                <ul class="mobile-tab-category-menu">
+                                    <li><a href="#">Furniture</a></li>
+                                    <li><a href="#">Lighting</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Clocks</a></li>
+                                    <li><a href="#">Cooking</a></li>
+                                    <li><a href="#">Electronics</a></li>
+                                    <li><a href="#">Minimalism</a></li>
+                                    <li><a href="#">Fashon</a></li>
+                                    <li><a href="#">Toys</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Mobile Menu Logo -->
+            <div class="logo text-center">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <!-- Mobile Menu  Cart-->
+            <div class="cart text-right">
+                <a href="#"><i class="fa fa-shopping-bag"></i><span class="count">0</span></a>
+            </div>
+        </div>
+
+        <!-- Desktop Header Middle Menu -->
+        <div class="header-middle hidden-on-mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <!-- Desktop Header Logo -->
+                        <div class="logo">
+                            <img src="./images/logo.png" alt="Theme Mate">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Desktop Header Search Menu -->
+                        <form action="" class="search-form">
+                            <input type="text" name="search" id="" placeholder="Search for product">
+                            <a href="#"><span>Select Category</span></a>
+                            <ul class="search-dropdown-menu">
+                                <li><a href="#">Furniture</a></li>
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Cooking</a></li>
+                                <li><a href="#">Toy</a></li>
+                                <li><a href="#">Furniture</a></li>
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Cooking</a></li>
+                                <li><a href="#">Toy</a></li>
+                            </ul>
+                            <button class="search-button" type="button"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="col-md-3">
+                        <!-- Desktop Header  Menu Login Credentials-->
+                        <div class="header-middle__right">
+                            <div class="myaccount">
+                                <a href="#"><span>Login / Register</span></a>
+                            </div>
+                            <div class="wishlist">
+                                <a href="#"><i class="fa fa-heart-o"></i></a>
+                            </div>
+                            <div class="compare">
+                                <a href="#"><i class="fa fa-random"></i><span class="count">0</span></a>
+                            </div>
+                            <div class="cart">
+                                <a href="#"><i class="fa fa-shopping-bag"></i><span class="count">0</span><span class="cart-total">$0.00</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Desktop Header Bottom Menu -->
+        <div class="header-bottom hidden-on-mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <!-- Desktop Header Category Nav Menu -->
+                        <div class="header-category-nav">
+                            <div class="cat-menu-opener">
+                                <i class="fa fa-bars"></i>
+                                <span>Browse Categories</span>
+                            </div>
+                            <!-- Desktop Header Category Dropdown Nav Items -->
+                            <div class="cat-menu-dropdown">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-venus-double"></i><span class="has-child">Furniture</span></a>
+                                        <!-- Desktop Header Category Dropdown Nav Items  Mega Menu-->
+                                        <div class="category-sub-mega-menu-dropdown">
+                                            <div class="container">
+                                                <div class="row">
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/menu-product-1-118x118.jpg" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#">Mantel Clocks</a></li>
+                                                                <li><a href="#">Anniversary Clocks</a></li>
+                                                                <li><a href="#"> Wall Clocks</a></li>
+                                                                <li><a href="#">Digital Clocks</a></li>
+                                                                <li><a href="#">Travel and Alarm</a> </li>                                                          
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/menu-product-3-118x118.jpg" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/menu-product-3-2-118x118.jpg" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm </a></li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/menu-product-5-2-118x118.jpg" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Kitchen</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm </a></li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="brand">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-alessi.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-Eva-Solo.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-witra.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-PackIt.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-subway"></i><span class="has-child">Cooking</span></a>
+                                        <!-- Desktop Header Category Dropdown Nav Items Mega Menu-->
+                                        <div class="category-sub-mega-menu-dropdown">
+                                            <div class="container">
+                                                <div class="row">
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/—Pngtree—cleaning products on transparent background_4017269.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/—Pngtree—3d shopping basket and trolley_5896095.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/PngItem_433900.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/PngItem_5087525.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Kitchen</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="brand">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-alessi.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-Eva-Solo.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-witra.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-PackIt.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                    </li>                                   
+                                    <li><a href="#"><i class="fa fa-plane"></i><span class="has-child">Accessories</span></a>
+                                        <!-- Desktop Header Category Dropdown Nav Items  Mega Menu-->
+                                        <div class="category-sub-mega-menu-dropdown">
+                                            <div class="container">
+                                                <div class="row">
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/menu-product-5-2-118x118.jpg" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/PngItem_5087525.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/menu-product-1-118x118.jpg" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/PngItem_5087525.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Kitchen</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="brand">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-alessi.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-Eva-Solo.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-witra.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-PackIt.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-bicycle"></i><span class="has-child">fashion</span></a>
+                                        <!-- Desktop Header Category Dropdown Nav Items  Mega Menu-->
+                                        <div class="category-sub-mega-menu-dropdown">
+                                            <div class="container">
+                                                <div class="row">
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/—Pngtree—3d shopping basket and trolley_5896095.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/—Pngtree—cleaning products on transparent background_4017269.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/PngItem_433900.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/menu-product-5-2-118x118.jpg" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Kitchen</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="brand">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-alessi.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-Eva-Solo.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-witra.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-PackIt.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-wheelchair-alt"></i><span class="has-child">Clocks</span></a>
+                                        <!-- Desktop Header Category Dropdown Nav Items  Mega Menu-->
+                                        <div class="category-sub-mega-menu-dropdown">
+                                            <div class="container">
+                                                <div class="row">
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/PngItem_1607122.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/PngItem_2963127.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/PngItem_433900.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/PngItem_5087525.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Kitchen</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="brand">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-alessi.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-Eva-Solo.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-witra.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-PackIt.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-truck"></i><span class="has-child">Lighting</span></a>
+                                        <!-- Desktop Header Category Dropdown Nav Items  Mega Menu-->
+                                        <div class="category-sub-mega-menu-dropdown">
+                                            <div class="container">
+                                                <div class="row">
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/PngItem_1607122.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/menu-product-5-2-118x118.jpg" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/PngItem_5087525.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="sub-menu-img">
+                                                            <img src="./images/—Pngtree—cleaning products on transparent background_4017269.png" alt="">
+                                                        </div>
+                                                        <div class="sub-megamu-list">
+                                                            <a href="#"><span class="nav-link-title">Kitchen</span></a>
+                                                            <ul class="sub-megamu-list-submenu">
+                                                                <li><a href="#" title="">Mantel Clocks</a></li>
+                                                                <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                                <li><a href="#" title=""> Wall Clocks</a></li>
+                                                                <li><a href="#" title="">Digital Clocks</a></li>
+                                                                <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="brand">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-alessi.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-Eva-Solo.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-witra.png" alt="">
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <img src="./images/brand-PackIt.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-address-card-o"></i><span>Hand Made</span></a></li>
+                                    <li><a href="#"><i class="fa fa-google-wallet"></i><span>Minimalise</span></a></li>
+                                    <li><a href="#"><i class="fa fa-grav"></i><span>Electronics</span></a></li>
+                                    <li><a href="#"><i class="fa fa-bicycle"></i><span>Cars</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Desktop Header Main Menu-->
+                    <div class="col-md-6">
+                        <div class="main-menu">
+                            <ul class="mega-hover">
+                                <li><a href="#" class="has-child active">Home</a></li>
+                                <li><a href="#" class="has-child">Shop</a>
+                                    <!-- Desktop Header  Main Mega Menu-->
+                                    <div class="main-menu-dropdown">
+                                        <div class="container">
+                                            <div class="row">
+
+                                                <div class="col-md-3">
+                                                    <div class="sub-menu-img">
+                                                        <img src="./images/menu-product-1-118x118.jpg" alt="">
+                                                    </div>
+                                                    <div class="sub-megamu-list">
+                                                        <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                        <ul class="sub-megamu-list-submenu">
+                                                            <li><a href="#" title="">Mantel Clocks</a></li>
+                                                            <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                            <li><a href="#" title=""> Wall Clocks</a></li>
+                                                            <li><a href="#" title="">Digital Clocks</a></li>
+                                                            <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3">
+                                                    <div class="sub-menu-img">
+                                                        <img src="./images/menu-product-3-118x118.jpg" alt="">
+                                                    </div>
+                                                    <div class="sub-megamu-list">
+                                                        <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                        <ul class="sub-megamu-list-submenu">
+                                                            <li><a href="#" title="">Mantel Clocks</a></li>
+                                                            <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                            <li><a href="#" title=""> Wall Clocks</a></li>
+                                                            <li><a href="#" title="">Digital Clocks</a></li>
+                                                            <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3">
+                                                    <div class="sub-menu-img">
+                                                        <img src="./images/menu-product-3-2-118x118.jpg" alt="">
+                                                    </div>
+                                                    <div class="sub-megamu-list">
+                                                        <a href="#"><span class="nav-link-title">Clock</span></a>
+                                                        <ul class="sub-megamu-list-submenu">
+                                                            <li><a href="#" title="">Mantel Clocks</a></li>
+                                                            <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                            <li><a href="#" title=""> Wall Clocks</a></li>
+                                                            <li><a href="#" title="">Digital Clocks</a></li>
+                                                            <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3">
+                                                    <div class="sub-menu-img">
+                                                        <img src="./images/menu-product-5-2-118x118.jpg" alt="">
+                                                    </div>
+                                                    <div class="sub-megamu-list">
+                                                        <a href="#"><span class="nav-link-title">Kitchen</span></a>
+                                                        <ul class="sub-megamu-list-submenu">
+                                                            <li><a href="#" title="">Mantel Clocks</a></li>
+                                                            <li><a href="#" title="">Anniversary Clocks</a></li>
+                                                            <li><a href="#" title=""> Wall Clocks</a></li>
+                                                            <li><a href="#" title="">Digital Clocks</a></li>
+                                                            <li><a href="#" title="">Travel and Alarm</a> </li>                                                                
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <img src="./images/brand-alessi.png" alt="">
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <img src="./images/brand-Eva-Solo.png" alt="">
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <img src="./images/brand-witra.png" alt="">
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <img src="./images/brand-PackIt.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li><a href="#" class="has-child">Blog</a></li>
+                                <li><a href="#" class="has-child">Page</a></li>
+                                <li><a href="#">Elements</a></li>
+                                <li><a href="#">Buy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Desktop Header Bottom Single Menu-->
+                    <div class="col-md-3">
+                        <div class="main-menu-right">
+                            <ul>
+                                <li><a href="#" class="special">SPECIAL OFFER</a></li>
+                                <li><a href="#">PURCHASE THEME</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <!-- Proper Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Main Js-->
+    <script src="./js/script.js"></script>
+
+
+</body>
+</html>
